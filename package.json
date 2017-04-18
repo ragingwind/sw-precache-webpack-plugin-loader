@@ -1,0 +1,31 @@
+{
+  "name": "sw-precache-webpack-plugin-loader",
+  "version": "0.0.0",
+  "description": "Selectively load sw-precache-webpack plugin either it is working on webpack or webpack-dev-server",
+  "license": "MIT",
+  "repository": "ragingwind/sw-precache-webpack-plugin-loader",
+  "author": {
+    "name": "ragingwind",
+    "email": "ragingwind@gmail.com",
+    "url": "ragingwind.me"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "webpack",
+    "precache",
+    "service worker",
+    "sw-precache",
+    "sw-precache-webpack",
+    "loader"
+  ],
+  "dependencies": {
+    "is-webpack-dev-server": "^0.0.2",
+    "sw-precache-webpack-dev-server-plugin": "^1.0.0",
+    "sw-precache-webpack-plugin": "^0.9.1"
+  }
+}
